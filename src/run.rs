@@ -39,7 +39,7 @@ pub(crate) async fn pull_and_run(
                 .map_err(|e| anyhow!("could not initialize a cluster context because a Kubernetes client could not be created: {}", e))?;
 
             ClusterContext::get()
-                .refresh(&kubernetes_client)
+                .refresh(&kubernetes_client, metadata.cluster_context_resources)
                 .await
                 .map_err(|e| anyhow!("could not initialize a cluster context: {}", e))?;
         }
