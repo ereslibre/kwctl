@@ -40,3 +40,6 @@ wasmparser = "0.82.0"
 
 [dev-dependencies]
 tempfile = "3.3.0"
+
+[patch."https://github.com/kubewarden/policy-fetcher"]
+policy-fetcher = { path = "../policy-fetcher" }
