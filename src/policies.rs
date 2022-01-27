@@ -1,4 +1,4 @@
-use anyhow::{anyhow, Result};
+use anyhow::Result;
 use policy_evaluator::policy_metadata::Metadata as PolicyMetadata;
 use policy_fetcher::policy::Policy;
 use policy_fetcher::store::Store;
