@@ -362,7 +362,7 @@ checksum = "a4a45a46ab1f2412e53d3a0ade76ffad2025804294569aae387231a0cd6e0899"
 [[package]]
 name = "burrego"
 version = "0.1.2"
-source = "git+https://github.com/kubewarden/policy-evaluator?tag=v0.2.12#0419eb5cc47d242818377d07e1389bc7ac69b1b4"
+source = "git+https://github.com/kubewarden/policy-evaluator?tag=v0.2.13#11d7d7aa5b66620b80e51c1077a8fc4479991b6e"
 dependencies = [
  "anyhow",
  "base64",
@@ -2674,8 +2674,8 @@ dependencies = [
 
 [[package]]
 name = "policy-evaluator"
-version = "0.2.12"
-source = "git+https://github.com/kubewarden/policy-evaluator?tag=v0.2.12#0419eb5cc47d242818377d07e1389bc7ac69b1b4"
+version = "0.2.13"
+source = "git+https://github.com/kubewarden/policy-evaluator?tag=v0.2.13#11d7d7aa5b66620b80e51c1077a8fc4479991b6e"
 dependencies = [
  "anyhow",
  "base64",
@@ -3265,9 +3265,9 @@ dependencies = [
 
 [[package]]
 name = "serde_json"
-version = "1.0.78"
+version = "1.0.79"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "d23c1ba4cf0efd44be32017709280b32d1cea5c3f1275c3b6d9e8bc54f758085"
+checksum = "8e8d9fa5c3b304765ce1fd9c4c8a3de2c8db365a5b91be52f186efc675681d95"
 dependencies = [
  "indexmap",
  "itoa 1.0.1",
